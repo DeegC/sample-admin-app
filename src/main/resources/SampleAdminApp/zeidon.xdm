@@ -1,0 +1,191 @@
+z1000-Zeidon    ZEIDON   TZDMXGPO 01/06/15   21:53:43 1.0a2    
+eDomainGroup 1
+aName      SampleAdminApp
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.RegularExpressionDomain
+aZKey      110000098
+aName      AlphaNumeric
+aDesc      Characters 'a-z', 'A-Z', '0-9'
+aDomainType E
+aDataType  S
+aMaxStringLth 254
+aContextRestriction N
+aDLL_Name  TZAPDMAA
+aOperName  zdmText
+aDecimalFormat 1234
+
+eContext   3
+aZKey      110000099
+aName      ALPHANUMERIC
+aJavaEditString [\w]*
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.BlobDomain
+aZKey      110000074
+aName      Blob
+aDesc      A do nothing domain for blobs
+aDomainType E
+aDataType  B
+aContextRestriction N
+
+eContext   3
+aZKey      110000075
+aName      BLOB
+aIsDefault Y
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.BooleanDomain
+aZKey      110000076
+aName      Boolean
+aDomainType E
+aDataType  L
+aContextRestriction N
+
+eContext   3
+aZKey      110000077
+aName      Boolean
+aIsDefault Y
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.DateTimeDomain
+aZKey      110000082
+aName      DateTime
+aDesc      Date/time field
+aDomainType E
+aDataType  T
+aContextRestriction N
+
+eContext   3
+aZKey      110000083
+aName      DateTime
+aJavaEditString yyyy-MM-dd
+aIsDefault Y
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.IntegerDomain
+aZKey      110000100
+aName      Day
+aDesc      Number of day in month
+aDomainType A
+aDataType  L
+aContextRestriction N
+aDLL_Name  TZAPDMAA
+aOperName  zdmInteger
+
+eContext   3
+aZKey      110000101
+aName      Day
+aEditString <= 31
+aIsDefault Y
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.DoubleDomain
+aZKey      110000080
+aName      Double
+aDomainType E
+aDataType  M
+aContextRestriction N
+
+eContext   3
+aZKey      110000081
+aName      Double
+aIsDefault Y
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.GeneratedKeyDomain
+aZKey      110000078
+aName      GeneratedKey
+aDesc      Generic DB-generated key
+aDomainType E
+aDataType  S
+aMaxStringLth 64
+aContextRestriction N
+
+eContext   3
+aZKey      110000079
+aName      GeneratedKey
+aIsDefault Y
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.IntegerDomain
+aZKey      110000104
+aName      Integer
+aDesc      Integer numbers from -lots to +lots
+aDomainType E
+aDataType  L
+aMaxStringLth 4
+aContextRestriction N
+aDLL_Name  TZAPDMAA
+aOperName  zdmInteger
+aDecimalFormat 0
+
+eContext   3
+aZKey      110000105
+aName      Hex
+
+eContext   3
+aZKey      110000106
+aName      INTEGER
+aIsDefault Y
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.StringDomain
+aZKey      110000102
+aName      Text
+aDesc      Any Character String
+aDomainType E
+aDataType  S
+aMaxStringLth 10000
+aContextRestriction N
+aDLL_Name  TZAPDMAA
+aOperName  zdmText
+
+eContext   3
+aZKey      110000103
+aName      TEXT
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.StaticTableDomain
+aZKey      110000084
+aName      Y/N
+aDesc      Yes or No
+aDomainType T
+aDataType  S
+aMaxStringLth 1
+aContextRestriction N
+
+eContext   3
+aZKey      110000085
+aName      Default
+
+eTableEntry 4
+aZKey      110000086
+
+eTableEntry 4
+aZKey      110000087
+aExternalValue Default
+aInternalValue Y
+
+eTableEntry 4
+aZKey      110000088
+aInternalValue N
+
+eContext   3
+aZKey      110000089
+aName      Y/N
+aIsDefault Y
+
+eTableEntry 4
+aZKey      110000090
+
+eTableEntry 4
+aZKey      110000091
+aExternalValue Y
+aInternalValue Y
+
+eTableEntry 4
+aZKey      110000092
+aExternalValue N
+aInternalValue N
+

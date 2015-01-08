@@ -1,0 +1,314 @@
+z1000-Zeidon    SAMPLEADMTZCMLPLO 01/07/15   23:05:44 1.0a2    
+eLPLR      1
+aName      SampleAdminApp
+aDesc      Sample college scheduling administration app
+aZKey      92726744
+aPgmSrcDir C:\zeidon\zapp\SampleAdminApp\src\main\scala
+aExecDir   C:\zeidon\zapp\SampleAdminApp\src\main\resources\SampleAdminApp
+aMetaSrcDir C:\zeidon\zapp\SampleAdminApp\zobjects
+aTaskUseCount 1
+aLPLR_Type 2
+aTempDesc  Sample college scheduling administration app
+aJavaPackageName com.quinsoft.zeidon.SampleAdmin
+aMaxZKey   110000069
+
+eW_MetaType 2
+aType      0
+
+eW_MetaType 2
+aType      1
+
+eW_MetaType 2
+aType      2
+
+eW_MetaType 2
+aType      3
+
+eW_MetaDef 3
+aCPLR_ZKey 110000074
+aStatus    1
+aName      Blob
+aGroupName Base
+
+eW_MetaDef 3
+aCPLR_ZKey 110000076
+aStatus    1
+aName      Boolean
+aGroupName Base
+
+eW_MetaDef 3
+aCPLR_ZKey 110000078
+aStatus    1
+aName      GeneratedKey
+aGroupName Base
+
+eW_MetaDef 3
+aCPLR_ZKey 110000080
+aStatus    1
+aName      Double
+aGroupName Base
+
+eW_MetaDef 3
+aCPLR_ZKey 110000082
+aStatus    1
+aName      DateTime
+aGroupName Base
+
+eW_MetaDef 3
+aCPLR_ZKey 110000084
+aStatus    1
+aName      Y/N
+aGroupName Base
+
+eW_MetaDef 3
+aCPLR_ZKey 110000098
+aStatus    1
+aName      AlphaNumeric
+aGroupName TZAPDMAA
+
+eW_MetaDef 3
+aCPLR_ZKey 110000100
+aStatus    1
+aName      Day
+aGroupName TZAPDMAA
+
+eW_MetaDef 3
+aCPLR_ZKey 110000102
+aStatus    1
+aName      Text
+aGroupName TZAPDMAA
+
+eW_MetaDef 3
+aCPLR_ZKey 110000104
+aStatus    1
+aName      Integer
+aGroupName TZAPDMAA
+
+eW_MetaType 2
+aType      4
+
+eW_MetaDef 3
+aCPLR_ZKey 110000070
+aStatus    1
+aUpdateInd 2
+aName      SampleAdminApp
+aLastSyncDate 20150101213049586
+aLastUpdateDate 20150101213049586
+
+eW_MetaType 2
+aType      5
+
+eW_MetaType 2
+aType      6
+
+eW_MetaDef 3
+aCPLR_ZKey 203
+aStatus    1
+aUpdateInd 2
+aName      SampleAdminApp
+aDesc      Sample college scheduling administration app
+aLastSyncDate 20150101213106300
+aLastUpdateDate 20150101213106300
+
+eW_MetaType 2
+aType      7
+
+eW_MetaDef 3
+aCPLR_ZKey 110000142
+aStatus    1
+aUpdateInd 2
+aName      Professor
+aLastSyncDate 20150107214740257
+aLastUpdateDate 20150107214740257
+
+eW_MetaType 2
+aType      8
+
+eW_MetaType 2
+aType      9
+
+eW_MetaDef 3
+aCPLR_ZKey 110000155
+aStatus    1
+aUpdateInd 2
+aName      Professor
+aDesc      VOR automatically built from LOD Dialog
+aLastSyncDate 20150101201626314
+aLastUpdateDate 20150101201626314
+
+eW_MetaType 2
+aType      10
+
+eW_MetaType 2
+aType      11
+
+eW_MetaType 2
+aType      12
+
+eW_MetaType 2
+aType      13
+
+eW_MetaDef 3
+aCPLR_ZKey 110000073
+aStatus    1
+aUpdateInd 2
+aName      Base
+aLastSyncDate 20150106215343193
+aLastUpdateDate 20150106215343193
+
+eW_MetaDef 3
+aCPLR_ZKey 110000094
+aStatus    1
+aUpdateInd 2
+aName      TZAPDMAA
+aLastSyncDate 20150101192410400
+aLastUpdateDate 20150101192410400
+
+eW_MetaType 2
+aType      14
+
+eW_MetaType 2
+aType      15
+
+eW_MetaType 2
+aType      16
+
+eW_MetaType 2
+aType      2000
+
+eW_MetaType 2
+aType      2001
+
+eW_MetaType 2
+aType      2002
+
+eW_MetaType 2
+aType      2003
+
+eW_MetaDef 3
+aCPLR_ZKey 110000074
+aStatus    1
+aName      Blob
+aLastUpdateDate 20150101192408000
+aGroupName Base
+
+eW_MetaDef 3
+aCPLR_ZKey 110000076
+aStatus    1
+aName      Boolean
+aLastUpdateDate 20150101192408000
+aGroupName Base
+
+eW_MetaDef 3
+aCPLR_ZKey 110000078
+aStatus    1
+aName      GeneratedKey
+aLastUpdateDate 20150101192408000
+aGroupName Base
+
+eW_MetaDef 3
+aCPLR_ZKey 110000080
+aStatus    1
+aName      Double
+aLastUpdateDate 20150101192408000
+aGroupName Base
+
+eW_MetaDef 3
+aCPLR_ZKey 110000082
+aStatus    1
+aName      DateTime
+aLastUpdateDate 20150101192408000
+aGroupName Base
+
+eW_MetaDef 3
+aCPLR_ZKey 110000084
+aStatus    1
+aName      Y/N
+aLastUpdateDate 20150101192408000
+aGroupName Base
+
+eW_MetaDef 3
+aCPLR_ZKey 110000098
+aStatus    1
+aName      AlphaNumeric
+aLastUpdateDate 20150101192410400
+aGroupName TZAPDMAA
+
+eW_MetaDef 3
+aCPLR_ZKey 110000100
+aStatus    1
+aName      Day
+aLastUpdateDate 20150101192410400
+aGroupName TZAPDMAA
+
+eW_MetaDef 3
+aCPLR_ZKey 110000102
+aStatus    1
+aName      Text
+aLastUpdateDate 20150101192410400
+aGroupName TZAPDMAA
+
+eW_MetaDef 3
+aCPLR_ZKey 110000104
+aStatus    1
+aName      Integer
+aLastUpdateDate 20150101192410400
+aGroupName TZAPDMAA
+
+eW_MetaType 2
+aType      2004
+
+eW_MetaDef 3
+
+eW_MetaType 2
+aType      2005
+
+eW_MetaType 2
+aType      2006
+
+eW_MetaDef 3
+
+eW_MetaType 2
+aType      2007
+
+eW_MetaDef 3
+
+eW_MetaType 2
+aType      2008
+
+eW_MetaType 2
+aType      2009
+
+eW_MetaDef 3
+
+eW_MetaType 2
+aType      2010
+
+eW_MetaType 2
+aType      2011
+
+eW_MetaType 2
+aType      2012
+
+eW_MetaType 2
+aType      2013
+
+eW_MetaDef 3
+
+eW_MetaDef 3
+
+eW_MetaType 2
+aType      2014
+
+eW_MetaType 2
+aType      2015
+
+eW_MetaType 2
+aType      2016
+
+i49        16
+i52        19
+i54        21
+i57        24
+i62        29
+i63        30

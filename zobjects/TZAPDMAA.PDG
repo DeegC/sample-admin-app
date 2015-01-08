@@ -1,0 +1,109 @@
+z1000-Zeidon    TZAPDMAA TZDGSRCO 01/01/15   19:24:10 1.0a2    
+eDomainGroup 1
+aZKey      110000094
+aName      TZAPDMAA
+aExtension C
+aLanguageType C
+aDomainAndGlobalOpGroupName TZAPDMAA
+aWorkNumeric 12
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.RegularExpressionDomain
+aZKey      110000098
+aName      AlphaNumeric
+aDesc      Characters 'a-z', 'A-Z', '0-9'
+aDomainType E
+aDataType  S
+aMaxStringLth 254
+aContextRestriction N
+aDecimalFormat 1234
+
+eContext   3
+aZKey      110000099
+aName      ALPHANUMERIC
+aJavaEditString [\w]*
+
+eSelectedOperation 3
+aName      zdmText
+aZKey      110000097
+aDesc      Text Algorithm
+aType      M
+aReturnDataType N
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.IntegerDomain
+aZKey      110000100
+aName      Day
+aDesc      Number of day in month
+aDomainType A
+aDataType  L
+aContextRestriction N
+
+eContext   3
+aZKey      110000101
+aName      Day
+aEditString <= 31
+aIsDefault Y
+
+eSelectedOperation 3
+aName      zdmInteger
+aZKey      110000095
+aDesc      Integer Algorithm
+aType      M
+aReturnDataType N
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.StringDomain
+aZKey      110000102
+aName      Text
+aDesc      Any Character String
+aDomainType E
+aDataType  S
+aMaxStringLth 10000
+aContextRestriction N
+
+eContext   3
+aZKey      110000103
+aName      TEXT
+
+eSelectedOperation 3
+
+eDomain    2
+aJavaClass com.quinsoft.zeidon.domains.IntegerDomain
+aZKey      110000104
+aName      Integer
+aDesc      Integer numbers from -lots to +lots
+aDomainType E
+aDataType  L
+aMaxStringLth 4
+aContextRestriction N
+aDecimalFormat 0
+
+eContext   3
+aZKey      110000105
+aDesc      0-F ( only Hex digits)
+aName      Hex
+
+eContext   3
+aZKey      110000106
+aName      INTEGER
+aIsDefault Y
+aDIL_Text  Integer > 32K
+
+eSelectedOperation 3
+
+eOperation 2
+
+eOperation 2
+aName      zdmQSNameLJNS
+aZKey      110000096
+aDesc      QuinSoft Name - left justified, no spaces
+aType      M
+aReturnDataType N
+
+eOperation 2
+
+i9         3
+i13        6
+i14        6
+i16        3

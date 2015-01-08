@@ -1,0 +1,385 @@
+z1000-Zeidon    PROFESSORTZZOLODO 01/07/15   21:47:40 1.0a2    
+eLOD       1
+aZKey      110000142
+aName      Professor
+
+eLOD_EntityParent 2
+aName      Professor
+aIndentName Professor
+aIndentLvl 0
+aZKey      110000143
+aCreate    Y
+aDelete    Y
+aUpdate    Y
+aInclude   N
+aInclSrc   Y
+aExclude   N
+aRecursive N
+aDerived   N
+aWork      N
+aParentDeleteBehave D
+
+eLOD_EntityChild 3
+aName      Student
+aIndentName    Student
+aIndentLvl 3
+aZKey      110000146
+aCreate    N
+aDelete    N
+aUpdate    N
+aInclude   Y
+aInclSrc   Y
+aExclude   Y
+aRecursive N
+aDerived   N
+aParentDeleteBehave E
+aRelLinkIndicator L
+
+eLOD_AttributeRec 4
+aZKey      110000147
+
+eER_AttributeRec 5
+aName      Id
+aZKey      110000123
+aNotNull   Y
+aSAP_Attribute 0
+
+eDomainRec 6
+aZKey      110000078
+aName      GeneratedKey
+aDomainType E
+aDataType  S
+aMaxStringLth 64
+aDesc      Generic DB-generated key
+aContextRestriction N
+
+eLOD_AttributeRec 4
+aZKey      110000148
+
+eER_AttributeRec 5
+aName      Name
+aZKey      110000124
+aNotNull   Y
+aSAP_Attribute 0
+
+eDomainRec 6
+aZKey      110000102
+aName      Text
+aDomainType E
+aDataType  S
+aMaxStringLth 10000
+aDesc      Any Character String
+aContextRestriction N
+
+eER_EntityRec 4
+aName      Student
+aZKey      110000122
+aPurpose   F
+aER_DiagramPosX 36
+aER_DiagramPosY 10
+aSAP_Entity 0
+
+eER_RelLinkRec 4
+aName      advises
+aZKey      110000134
+aCardMin   0
+aCardMax   m
+
+eER_RelTypeRec 5
+aZKey      110000133
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 40
+aER_DiagramBendPosY 4
+aER_DiagramE1PosX 27
+aER_DiagramE1PosY 4
+aER_DiagramE2PosX 40
+aER_DiagramE2PosY 9
+
+eLOD_EntityChild 3
+aName      ScheduledClass
+aIndentName    ScheduledClass
+aIndentLvl 3
+aZKey      110000149
+aCreate    N
+aDelete    N
+aUpdate    N
+aInclude   Y
+aInclSrc   Y
+aExclude   Y
+aRecursive N
+aDerived   N
+aParentDeleteBehave E
+aRelLinkIndicator L
+
+eLOD_EntityChild 4
+aName      Class
+aIndentName       Class
+aIndentLvl 6
+aZKey      110000151
+aCreate    N
+aDelete    N
+aUpdate    N
+aInclude   N
+aInclSrc   Y
+aExclude   N
+aRecursive N
+aDerived   N
+aParentDeleteBehave R
+aRelLinkIndicator H
+
+eLOD_AttributeRec 5
+aZKey      110000152
+
+eER_AttributeRec 6
+aName      Id
+aZKey      110000072
+aNotNull   Y
+aSAP_Attribute 0
+
+eDomainRec 7
+
+eLOD_AttributeRec 5
+aZKey      110000153
+
+eER_AttributeRec 6
+aName      Name
+aZKey      110000093
+aNotNull   Y
+aSAP_Attribute 0
+
+eDomainRec 7
+aZKey      110000104
+aName      Integer
+aDomainType E
+aDataType  L
+aMaxStringLth 4
+aDecimalFormat 0
+aDesc      Integer numbers from -lots to +lots
+aContextRestriction N
+
+eER_EntityRec 5
+aName      Class
+aZKey      110000071
+aPurpose   F
+aER_DiagramPosX 18
+aER_DiagramPosY 29
+aSAP_Entity 0
+
+eER_RelLinkRec 5
+aName      for
+aZKey      110000129
+aCardMin   1
+aCardMax   1
+
+eER_RelTypeRec 6
+aZKey      110000127
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 0
+aER_DiagramBendPosY 0
+aER_DiagramE1PosX 22
+aER_DiagramE1PosY 28
+aER_DiagramE2PosX 22
+aER_DiagramE2PosY 22
+
+eLOD_AttributeRec 4
+aZKey      110000150
+
+eER_AttributeRec 5
+aName      Id
+aZKey      110000119
+aNotNull   Y
+aSAP_Attribute 0
+
+eDomainRec 6
+
+eER_EntityRec 4
+aName      ScheduledClass
+aZKey      110000118
+aPurpose   S
+aER_DiagramPosX 18
+aER_DiagramPosY 17
+aSAP_Entity 0
+
+eER_RelLinkRec 4
+aName      teaches
+aZKey      110000131
+aCardMin   0
+aCardMax   m
+
+eER_RelTypeRec 5
+aZKey      110000130
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 0
+aER_DiagramBendPosY 0
+aER_DiagramE1PosX 22
+aER_DiagramE1PosY 7
+aER_DiagramE2PosX 22
+aER_DiagramE2PosY 16
+
+eLOD_AttributeRec 3
+aZKey      110000144
+
+eER_AttributeRec 4
+aName      Id
+aZKey      110000110
+aNotNull   Y
+aSAP_Attribute 0
+
+eDomainRec 5
+
+eLOD_AttributeRec 3
+aZKey      110000145
+
+eER_AttributeRec 4
+aName      Name
+aZKey      110000111
+aNotNull   Y
+
+eDomainRec 5
+
+eER_EntityRec 3
+aName      Professor
+aZKey      110000109
+aPurpose   F
+aER_DiagramPosX 18
+aER_DiagramPosY 2
+aSAP_Entity 0
+
+eLOD_Entity 2
+awkSelectedAttributeForDragSort 1
+
+eLOD_Attribute 3
+awkSequence 1
+
+eER_Attribute 4
+
+eDomain    5
+
+eLOD_Attribute 3
+awkSequence 2
+
+eER_Attribute 4
+
+eDomain    5
+
+eER_Entity 3
+
+eLOD_Entity 2
+
+eLOD_Attribute 3
+awkSequence 1
+
+eER_Attribute 4
+
+eDomain    5
+
+eLOD_Attribute 3
+awkSequence 2
+
+eER_Attribute 4
+
+eDomain    5
+
+eER_Entity 3
+
+eER_RelLink 3
+
+eER_RelType 4
+
+eLOD_Entity 2
+
+eLOD_Attribute 3
+awkSequence 1
+
+eER_Attribute 4
+
+eDomain    5
+
+eER_Entity 3
+
+eER_RelLink 3
+
+eER_RelType 4
+
+eLOD_Entity 2
+
+eLOD_Attribute 3
+awkSequence 1
+
+eER_Attribute 4
+
+eDomain    5
+
+eLOD_Attribute 3
+awkSequence 2
+
+eER_Attribute 4
+
+eDomain    5
+
+eER_Entity 3
+
+eER_RelLink 3
+
+eER_RelType 4
+
+ePOD       2
+aNAME      Professor
+aZKey      110000154
+aTE_SourceZKey 110000141
+
+eTE_DB_Environ 3
+aName      SampleAdminApp
+aZKey      203
+aDesc      Sample college scheduling administration app
+aType      P
+
+eTE_DBMS_Source 4
+aName      Sqlite3
+aZKey      110000141
+aParadigm  R
+aDBMS      Sqlite3
+aGenerateExecutable kzhsqlmb
+aExecutable kzhsqlma
+aDisplayOwner N
+aTranslateNamesToLowerUnderscore Y
+
+i16        5
+i25        5
+i31        5
+i34        8
+i36        1
+i37        29
+i38        30
+i39        5
+i40        32
+i41        33
+i42        8
+i43        35
+i44        2
+i45        3
+i46        4
+i47        5
+i48        6
+i49        7
+i50        8
+i51        9
+i52        10
+i53        11
+i54        12
+i55        23
+i56        24
+i57        5
+i58        26
+i59        27
+i60        28
+i61        13
+i62        14
+i63        15
+i64        5
+i65        17
+i66        18
+i67        19
+i68        20
+i69        21
+i70        22

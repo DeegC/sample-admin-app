@@ -1,0 +1,89 @@
+z1000-Zeidon    ZEIDON   TZEREMXO 01/01/15   20:16:22 1.0a2    
+eMODEL     1
+aNumEnts   5
+aNumRels   4
+
+eENTITY    2
+aZKEY      110000109
+aNumAtts   2
+
+eATTRIB    3
+aZKEY      110000110
+aNAME      Id
+aAPDM_TOK  110000078
+
+eATTRIB    3
+aZKEY      110000111
+aNAME      Name
+aAPDM_TOK  110000102
+
+eENTITY    2
+aZKEY      110000114
+aNumAtts   1
+
+eATTRIB    3
+aZKEY      110000115
+aNAME      Id
+aAPDM_TOK  110000078
+
+eENTITY    2
+aZKEY      110000118
+aNumAtts   2
+
+eATTRIB    3
+aZKEY      110000119
+aNAME      Id
+aAPDM_TOK  110000078
+
+eATTRIB    3
+aZKEY      222
+aNAME      fk_id_class
+aAPDM_TOK  110000084
+aLTH       1
+
+eENTITY    2
+aZKEY      110000122
+aNumAtts   3
+
+eATTRIB    3
+aZKEY      110000123
+aNAME      Id
+aAPDM_TOK  110000078
+
+eATTRIB    3
+aZKEY      110000124
+aNAME      Name
+aAPDM_TOK  110000102
+
+eATTRIB    3
+aZKEY      227
+aNAME      fk_id_professor
+aAPDM_TOK  110000078
+aLTH       64
+
+eENTITY    2
+aZKEY      110000071
+aNumAtts   2
+
+eATTRIB    3
+aZKEY      110000072
+aNAME      Id
+aAPDM_TOK  110000084
+
+eATTRIB    3
+aZKEY      110000093
+aNAME      Name
+aAPDM_TOK  110000104
+
+eREL       2
+aZKEY      110000127
+
+eREL       2
+aZKEY      110000130
+
+eREL       2
+aZKEY      110000133
+
+eREL       2
+aZKEY      110000136
+

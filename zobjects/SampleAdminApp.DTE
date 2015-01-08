@@ -1,0 +1,587 @@
+z1000-Zeidon    SAMPLEADMTZTENVRO 01/01/15   21:31:06 1.0a2    
+eTE_DB_Environ 1
+aName      SampleAdminApp
+aZKey      203
+aDesc      Sample college scheduling administration app
+aType      P
+
+eTE_DBMS_Source 2
+aName      Sqlite3
+aZKey      110000141
+aParadigm  R
+aDBMS      Sqlite3
+aGenerateExecutable kzhsqlmb
+aExecutable kzhsqlma
+aDisplayOwner N
+aTranslateNamesToLowerUnderscore Y
+
+eTE_TablRec 3
+aName      professor
+aZKey      232
+aDataOrRel D
+
+eTE_FieldDataRel 4
+aName      id
+aZKey      233
+aDataOrRelfieldOrSet D
+aKey       Y
+aDataType  S
+aLength    64
+aSQL_NULLS Y
+awkSequence 1
+
+eER_Attribute 5
+aName      Id
+aZKey      110000110
+aNotNull   Y
+aSAP_Attribute 0
+
+eDomain    6
+aZKey      110000078
+aName      GeneratedKey
+aDataType  S
+aMaxStringLth 64
+aDesc      Generic DB-generated key
+aDomainType E
+aContextRestriction N
+
+eTE_FieldDataRelFK_1 5
+aName      fk_id_professor
+aZKey      252
+aDesc      professor(teaches [0:m] ) mm_scheduledclassstghtbyprofesso
+aDataOrRelfieldOrSet R
+aKey       Y
+aDataType  S
+aLength    64
+aSQL_NULLS Y
+
+eTE_FieldDataRelFK_1 5
+aName      fk_id_professor
+aZKey      255
+aDesc      professor(advises [0:m] ) student
+aDataOrRelfieldOrSet R
+aDataType  S
+aLength    64
+aSQL_NULLS Y
+
+eTE_FieldDataRel 4
+aName      name
+aZKey      234
+aDataOrRelfieldOrSet D
+aKey       N
+aDataType  V
+aLength    10000
+aSQL_NULLS Y
+awkSequence 2
+
+eER_Attribute 5
+aName      Name
+aZKey      110000111
+aNotNull   Y
+
+eDomain    6
+aZKey      110000102
+aName      Text
+aDataType  S
+aMaxStringLth 10000
+aDesc      Any Character String
+aDomainType E
+aContextRestriction N
+
+eER_Entity 4
+aName      Professor
+aZKey      110000109
+aPurpose   F
+aER_DiagramPosX 18
+aER_DiagramPosY 2
+aSAP_Entity 0
+
+eTE_TablRecKey 4
+aName      id
+aZKey      235
+aCategory  2
+aDesc      Implements 
+
+eER_EntIdentifier 5
+aName      Id
+aZKey      110000112
+aSystemMaintained Y
+
+eTE_FieldDataRelKey 5
+
+eTE_FieldDataRelAsFK 6
+
+eTE_FieldDataRelAsFK 6
+
+eTE_TablRec 3
+aName      sample_app
+aZKey      236
+aDataOrRel D
+
+eTE_FieldDataRel 4
+aName      id
+aZKey      237
+aDataOrRelfieldOrSet D
+aKey       Y
+aDataType  S
+aLength    64
+aSQL_NULLS Y
+awkSequence 1
+
+eER_Attribute 5
+aName      Id
+aZKey      110000115
+aNotNull   Y
+
+eDomain    6
+
+eER_Entity 4
+aName      SampleApp
+aZKey      110000114
+aPurpose   F
+aER_DiagramPosX 2
+aER_DiagramPosY 6
+
+eTE_TablRecKey 4
+aName      id
+aZKey      238
+aCategory  2
+aDesc      Implements 
+
+eER_EntIdentifier 5
+aName      Id
+aZKey      110000116
+aSystemMaintained Y
+
+eTE_FieldDataRelKey 5
+
+eTE_TablRec 3
+aName      scheduled_class
+aZKey      239
+aDataOrRel D
+
+eTE_FieldDataRel 4
+aName      id
+aZKey      240
+aDataOrRelfieldOrSet D
+aKey       Y
+aDataType  S
+aLength    64
+aSQL_NULLS Y
+awkSequence 1
+
+eER_Attribute 5
+aName      Id
+aZKey      110000119
+aNotNull   Y
+aSAP_Attribute 0
+
+eDomain    6
+
+eTE_FieldDataRelFK_1 5
+aName      fk_id_scheduled_class
+aZKey      254
+aDesc      scheduled_class(is taught by [0:m] ) mm_scheduledclassstghtbyprofesso
+aDataOrRelfieldOrSet R
+aKey       Y
+aDataType  S
+aLength    64
+aSQL_NULLS Y
+
+eTE_FieldDataRelFK_1 5
+aName      fk_id_scheduled_class
+aZKey      259
+aDesc      scheduled_class(for [0:m] ) mm_scheduled_class_for_student
+aDataOrRelfieldOrSet R
+aKey       Y
+aDataType  S
+aLength    64
+aSQL_NULLS Y
+
+eTE_FieldDataRel 4
+aName      fk_id_class
+aZKey      250
+aDesc      class(is scheduled [0:m] ) scheduled_class
+aDataOrRelfieldOrSet R
+aDataType  S
+aLength    64
+aSQL_NULLS Y
+awkSequence 2
+
+eER_RelLink 5
+aName      is scheduled
+aZKey      110000128
+aCardMin   0
+aCardMax   m
+
+eER_RelType_O 6
+aZKey      110000127
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 0
+aER_DiagramBendPosY 0
+aER_DiagramE1PosX 22
+aER_DiagramE1PosY 28
+aER_DiagramE2PosX 22
+aER_DiagramE2PosY 22
+
+eER_EntityRelLink 6
+aName      Class
+aZKey      110000071
+aPurpose   F
+aER_DiagramPosX 18
+aER_DiagramPosY 29
+aSAP_Entity 0
+
+eTE_FieldDataRel_PK 5
+aName      id
+aZKey      247
+aDataOrRelfieldOrSet D
+aKey       Y
+aDataType  S
+aLength    64
+aSQL_NULLS Y
+
+eER_Entity 4
+aName      ScheduledClass
+aZKey      110000118
+aPurpose   S
+aER_DiagramPosX 18
+aER_DiagramPosY 17
+aSAP_Entity 0
+
+eTE_TablRecKey 4
+aName      id
+aZKey      241
+aCategory  2
+aDesc      Implements 
+
+eER_EntIdentifier 5
+aName      Id
+aZKey      110000120
+aSystemMaintained Y
+
+eTE_FieldDataRelKey 5
+
+eTE_FieldDataRelAsFK 6
+
+eTE_FieldDataRelAsFK 6
+
+eTE_TablRec 3
+aName      student
+aZKey      242
+aDataOrRel D
+
+eTE_FieldDataRel 4
+aName      id
+aZKey      243
+aDataOrRelfieldOrSet D
+aKey       Y
+aDataType  S
+aLength    64
+aSQL_NULLS Y
+awkSequence 1
+
+eER_Attribute 5
+aName      Id
+aZKey      110000123
+aNotNull   Y
+aSAP_Attribute 0
+
+eDomain    6
+
+eTE_FieldDataRelFK_1 5
+aName      fk_id_student
+aZKey      257
+aDesc      student(attends [0:m] ) mm_scheduled_class_for_student
+aDataOrRelfieldOrSet R
+aKey       Y
+aDataType  S
+aLength    64
+aSQL_NULLS Y
+
+eTE_FieldDataRel 4
+aName      name
+aZKey      244
+aDataOrRelfieldOrSet D
+aKey       N
+aDataType  V
+aLength    10000
+aSQL_NULLS Y
+awkSequence 2
+
+eER_Attribute 5
+aName      Name
+aZKey      110000124
+aNotNull   Y
+aSAP_Attribute 0
+
+eDomain    6
+
+eTE_FieldDataRel 4
+awkSequence 3
+
+eER_RelLink 5
+aName      advises
+aZKey      110000134
+aCardMin   0
+aCardMax   m
+
+eER_RelType_O 6
+aZKey      110000133
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 40
+aER_DiagramBendPosY 4
+aER_DiagramE1PosX 27
+aER_DiagramE1PosY 4
+aER_DiagramE2PosX 40
+aER_DiagramE2PosY 9
+
+eER_EntityRelLink 6
+
+eTE_FieldDataRel_PK 5
+
+eER_Entity 4
+aName      Student
+aZKey      110000122
+aPurpose   F
+aER_DiagramPosX 36
+aER_DiagramPosY 10
+aSAP_Entity 0
+
+eTE_TablRecKey 4
+aName      id
+aZKey      245
+aCategory  2
+aDesc      Implements 
+
+eER_EntIdentifier 5
+aName      Id
+aZKey      110000125
+aSystemMaintained Y
+
+eTE_FieldDataRelKey 5
+
+eTE_FieldDataRelAsFK 6
+
+eTE_TablRec 3
+aName      class
+aZKey      246
+aDataOrRel D
+
+eTE_FieldDataRel 4
+awkSequence 1
+
+eER_Attribute 5
+aName      Id
+aZKey      110000072
+aNotNull   Y
+aSAP_Attribute 0
+
+eDomain    6
+
+eTE_FieldDataRelFK_1 5
+
+eTE_FieldDataRel 4
+aName      name
+aZKey      248
+aDataOrRelfieldOrSet D
+aKey       N
+aDataType  L
+aLength    4
+aSQL_SCALE 0
+aSQL_NULLS Y
+awkSequence 2
+
+eER_Attribute 5
+aName      Name
+aZKey      110000093
+aNotNull   Y
+aSAP_Attribute 0
+
+eDomain    6
+aZKey      110000104
+aName      Integer
+aDataType  L
+aMaxStringLth 4
+aDecimalFormat 0
+aDesc      Integer numbers from -lots to +lots
+aDomainType E
+aContextRestriction N
+
+eER_Entity 4
+
+eTE_TablRecKey 4
+aName      id
+aZKey      249
+aCategory  2
+aDesc      Implements 
+
+eER_EntIdentifier 5
+aName      Id
+aZKey      110000107
+aSystemMaintained Y
+
+eTE_FieldDataRelKey 5
+
+eTE_FieldDataRelAsFK 6
+
+eTE_TablRec 3
+aName      mm_scheduledclassstghtbyprofesso
+aZKey      251
+aDataOrRel R
+aDesc      scheduled_class(is taught by [m:m] ) professor
+
+eTE_FieldDataRel 4
+awkSequence 1
+
+eER_RelLink 5
+aName      teaches
+aZKey      110000131
+aCardMin   0
+aCardMax   m
+
+eER_RelType_O 6
+aZKey      110000130
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 0
+aER_DiagramBendPosY 0
+aER_DiagramE1PosX 22
+aER_DiagramE1PosY 7
+aER_DiagramE2PosX 22
+aER_DiagramE2PosY 16
+
+eER_EntityRelLink 6
+
+eTE_FieldDataRel_PK 5
+
+eTE_FieldDataRel 4
+awkSequence 2
+
+eER_RelLink 5
+aName      is taught by
+aZKey      110000132
+aCardMin   0
+aCardMax   m
+
+eER_RelType_O 6
+
+eER_EntityRelLink 6
+
+eTE_FieldDataRel_PK 5
+
+eER_RelType 4
+
+eTE_TablRecKey 4
+aName      id_mm_scheduledclassstghtbyprofs
+aZKey      253
+aCategory  4
+aDesc      Implements mm_scheduledclassstghtbyprofesso
+
+eTE_FieldDataRelKey 5
+
+eTE_FieldDataRelKey 5
+
+eTE_TablRec 3
+aName      mm_scheduled_class_for_student
+aZKey      256
+aDataOrRel R
+aDesc      scheduled_class(for [m:m] ) student
+
+eTE_FieldDataRel 4
+awkSequence 1
+
+eER_RelLink 5
+aName      attends
+aZKey      110000137
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_O 6
+aZKey      110000136
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 40
+aER_DiagramBendPosY 19
+aER_DiagramE1PosX 40
+aER_DiagramE1PosY 15
+aER_DiagramE2PosX 27
+aER_DiagramE2PosY 19
+
+eER_EntityRelLink 6
+
+eTE_FieldDataRel_PK 5
+
+eTE_FieldDataRel 4
+awkSequence 2
+
+eER_RelLink 5
+aName      for
+aZKey      110000138
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_O 6
+
+eER_EntityRelLink 6
+
+eTE_FieldDataRel_PK 5
+
+eER_RelType 4
+
+eTE_TablRecKey 4
+aName      id_mm_scheduled_class_for_studen
+aZKey      258
+aCategory  4
+aDesc      Implements mm_scheduled_class_for_student
+
+eTE_FieldDataRelKey 5
+
+eTE_FieldDataRelKey 5
+
+i14        3
+i15        6
+i16        7
+i20        5
+i24        18
+i28        5
+i39        26
+i40        29
+i41        30
+i45        5
+i49        10
+i50        7
+i53        11
+i54        3
+i58        43
+i59        46
+i61        35
+i63        5
+i64        31
+i68        34
+i71        35
+i72        31
+i74        6
+i77        11
+i78        3
+i79        29
+i81        76
+i82        36
+i83        26
+i84        76
+i86        6
+i87        29
+i89        46
+i92        55
+i93        43
+i94        30
+i96        91
+i97        36
+i98        26
+i99        91
+i101       46
+i102       30

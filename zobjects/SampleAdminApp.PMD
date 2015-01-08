@@ -1,0 +1,446 @@
+z1000-Zeidon    SAMPLEADMTZEREMDO 01/01/15   21:30:49 1.0a2    
+eEntpER_Model 1
+aName      SampleAdminApp
+aZKey      110000070
+aLastSyncDate 20150101213049432
+
+eER_Entity 2
+aName      Professor
+aZKey      110000109
+aPurpose   F
+aER_DiagramPosX 18
+aER_DiagramPosY 2
+aSAP_Entity 0
+awkSelectedAttributeForDragSort 1
+
+eER_Attribute 3
+aName      Id
+aZKey      110000110
+aNotNull   Y
+aSAP_Attribute 0
+awkSequence 1
+
+eDomain    4
+aZKey      110000078
+aDesc      Generic DB-generated key
+aName      GeneratedKey
+aDataType  S
+aMaxStringLth 64
+aDomainType E
+aContextRestriction N
+
+eER_FactTypeForDelete 4
+aZKey      110000113
+
+eER_EntIdentifierForDelete 5
+aName      Id
+aZKey      110000112
+aSystemMaintained Y
+
+eER_Attribute 3
+aName      Name
+aZKey      110000111
+aNotNull   Y
+awkSequence 2
+
+eDomain    4
+aZKey      110000102
+aDesc      Any Character String
+aName      Text
+aDataType  S
+aMaxStringLth 10000
+aDomainType E
+aContextRestriction N
+
+eER_RelLink 3
+aName      teaches
+aZKey      110000131
+aCardMin   0
+aCardMax   m
+
+eER_RelType_1 4
+aZKey      110000130
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 0
+aER_DiagramBendPosY 0
+aER_DiagramE1PosX 22
+aER_DiagramE1PosY 7
+aER_DiagramE2PosX 22
+aER_DiagramE2PosY 16
+
+eER_RelLink_Other 5
+aName      is taught by
+aZKey      110000132
+aCardMin   0
+aCardMax   m
+
+eER_Entity_Other 6
+aSAP_Entity 0
+aName      ScheduledClass
+aZKey      110000118
+aPurpose   S
+aER_DiagramPosX 18
+aER_DiagramPosY 17
+
+eER_RelLink 3
+aName      advises
+aZKey      110000134
+aCardMin   0
+aCardMax   m
+
+eER_RelType_1 4
+aZKey      110000133
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 40
+aER_DiagramBendPosY 4
+aER_DiagramE1PosX 27
+aER_DiagramE1PosY 4
+aER_DiagramE2PosX 40
+aER_DiagramE2PosY 9
+
+eER_RelLink_Other 5
+aName      is advised by
+aZKey      110000135
+aCardMin   1
+aCardMax   1
+
+eER_Entity_Other 6
+aSAP_Entity 0
+aName      Student
+aZKey      110000122
+aPurpose   F
+aER_DiagramPosX 36
+aER_DiagramPosY 10
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+aName      SampleApp
+aZKey      110000114
+aPurpose   F
+aER_DiagramPosX 2
+aER_DiagramPosY 6
+awkSelectedAttributeForDragSort 1
+
+eER_Attribute 3
+aName      Id
+aZKey      110000115
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      110000117
+
+eER_EntIdentifierForDelete 5
+aName      Id
+aZKey      110000116
+aSystemMaintained Y
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+awkSelectedAttributeForDragSort 1
+
+eER_Attribute 3
+aName      Id
+aZKey      110000119
+aNotNull   Y
+aSAP_Attribute 0
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      110000121
+
+eER_EntIdentifierForDelete 5
+aName      Id
+aZKey      110000120
+aSystemMaintained Y
+
+eER_RelLink 3
+aName      for
+aZKey      110000129
+aCardMin   1
+aCardMax   1
+
+eER_RelType_1 4
+aZKey      110000127
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 0
+aER_DiagramBendPosY 0
+aER_DiagramE1PosX 22
+aER_DiagramE1PosY 28
+aER_DiagramE2PosX 22
+aER_DiagramE2PosY 22
+
+eER_RelLink_Other 5
+aName      is scheduled
+aZKey      110000128
+aCardMin   0
+aCardMax   m
+
+eER_Entity_Other 6
+aSAP_Entity 0
+aName      Class
+aZKey      110000071
+aPurpose   F
+aER_DiagramPosX 18
+aER_DiagramPosY 29
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+aName      for
+aZKey      110000138
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      110000136
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 40
+aER_DiagramBendPosY 19
+aER_DiagramE1PosX 40
+aER_DiagramE1PosY 15
+aER_DiagramE2PosX 27
+aER_DiagramE2PosY 19
+
+eER_RelLink_Other 5
+aName      attends
+aZKey      110000137
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+awkSelectedAttributeForDragSort 1
+
+eER_Attribute 3
+aName      Id
+aZKey      110000123
+aNotNull   Y
+aSAP_Attribute 0
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      110000126
+
+eER_EntIdentifierForDelete 5
+aName      Id
+aZKey      110000125
+aSystemMaintained Y
+
+eER_Attribute 3
+aName      Name
+aZKey      110000124
+aNotNull   Y
+aSAP_Attribute 0
+awkSequence 2
+
+eDomain    4
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+awkSelectedAttributeForDragSort 1
+
+eER_Attribute 3
+aName      Id
+aZKey      110000072
+aNotNull   Y
+aSAP_Attribute 0
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      110000108
+
+eER_EntIdentifierForDelete 5
+aName      Id
+aZKey      110000107
+aSystemMaintained Y
+
+eER_Attribute 3
+aName      Name
+aZKey      110000093
+aNotNull   Y
+aSAP_Attribute 0
+awkSequence 2
+
+eDomain    4
+aZKey      110000104
+aDesc      Integer numbers from -lots to +lots
+aName      Integer
+aDataType  L
+aMaxStringLth 4
+aDecimalFormat 0
+aDomainType E
+aContextRestriction N
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+i16        5
+i17        4
+i18        2
+i21        3
+i24        23
+i25        22
+i26        20
+i27        11
+i29        3
+i36        10
+i37        9
+i38        8
+i39        1
+i43        15
+i44        31
+i45        30
+i46        28
+i47        15
+i49        3
+i53        7
+i54        14
+i55        13
+i56        12
+i57        1
+i58        42
+i59        41
+i60        40
+i61        11
+i62        51
+i63        50
+i64        48
+i65        35
+i67        3
+i72        34
+i73        33
+i74        32
+i75        11
+i76        69
+i77        68
+i78        66
+i79        33
+i80        34
+i81        35
+i82        32
+i83        11
+i84        9
+i85        8
+i86        1
+i87        10
+i88        11
+i89        13
+i90        12
+i91        1
+i92        14
+i93        15
+i94        41
+i95        42
+i96        15
+i97        40
+i98        11
