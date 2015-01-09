@@ -3,7 +3,7 @@ eLPLR      1
 aName      SampleAdminApp
 aDesc      Sample college scheduling administration app
 aZKey      92726744
-aPgmSrcDir C:\zeidon\zapp\SampleAdminApp\src\main\scala
+aPgmSrcDir C:\zeidon\zapp\SampleAdminApp\src\main
 aExecDir   C:\zeidon\zapp\SampleAdminApp\src\main\resources\SampleAdminApp
 aMetaSrcDir C:\zeidon\zapp\SampleAdminApp\zobjects
 aTaskUseCount 2
