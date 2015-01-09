@@ -1,4 +1,4 @@
-package com.quinsoft.zeidon.sampleadmin
+package com.quinsoft.zeidon.sampleadminapp
 
 import com.quinsoft.zeidon.scala.ObjectEngine
 import com.quinsoft.zeidon.scala.View
@@ -10,7 +10,7 @@ object SimpleCommit {
     // first zeidon.ini in the classpath.
     val oe = ObjectEngine.getInstance
     
-    // Create a task for SampleAdmin application.
+    // Create a task for SampleAdminApp application.
     val task = oe.createTask( "SampleAdminApp" )
 
     // Create an empty OI.

@@ -1,6 +1,5 @@
 /* CREATE DATABASE Sqlite3 */ ;
 DROP TABLE IF EXISTS professor ;
-DROP TABLE IF EXISTS sample_app ;
 DROP TABLE IF EXISTS scheduled_class ;
 DROP TABLE IF EXISTS student ;
 DROP TABLE IF EXISTS class ;
@@ -15,13 +14,7 @@ CREATE TABLE professor (
            name                             longtext           NOT NULL ) ;
  
 
- 
-/* Entity - SampleApp */
-CREATE TABLE sample_app ( 
-           id                               INTEGER PRIMARY KEY NOT NULL ) ;
- 
 
- 
 /* Entity - ScheduledClass */
 CREATE TABLE scheduled_class ( 
            id                               INTEGER PRIMARY KEY NOT NULL, 
@@ -62,18 +55,6 @@ CREATE UNIQUE INDEX Uprofessor_id_2330
            id ) ;
  
  
- 
-
- 
-
-/* Main key for Entity - SampleApp */
-CREATE UNIQUE INDEX Usample_app_id_2370 
-       ON sample_app ( 
-           id ) ;
- 
- 
- 
-
  
 
 /* Main key for Entity - ScheduledClass */

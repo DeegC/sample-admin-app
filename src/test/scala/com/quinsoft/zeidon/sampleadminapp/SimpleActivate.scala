@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.quinsoft.zeidon.sampleadmin
+package com.quinsoft.zeidon.sampleadminapp
 
 import com.quinsoft.zeidon.scala.ObjectEngine
 import com.quinsoft.zeidon.scala.View
@@ -17,7 +17,7 @@ object SimpleActivate {
     // first zeidon.ini in the classpath.
     val oe = ObjectEngine.getInstance
     
-    // Create a task for SampleAdmin application.
+    // Create a task for SampleAdminApp application.
     val task = oe.createTask( "SampleAdminApp" )
 
     // Create an empty View based on the Professor LOD.

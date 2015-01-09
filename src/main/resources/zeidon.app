@@ -13,4 +13,4 @@ aAPP_LOCAL SampleAdminApp
 aAPP_SHARED SampleAdminApp
 aAPP_QLPLR SampleAdminApp
 aAPP_SOURCE SampleAdminApp
-aAPP_PACKAGE com.quinsoft.zeidon.sampleadmin
+aAPP_PACKAGE com.quinsoft.zeidon.sampleadminapp

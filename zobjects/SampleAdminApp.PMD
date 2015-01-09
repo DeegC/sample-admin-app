@@ -1,8 +1,8 @@
-z1000-Zeidon    SAMPLEADMTZEREMDO 01/01/15   21:30:49 1.0a2    
+z1000-Zeidon    SAMPLEADMTZEREMDO 01/08/15   20:05:19 1.0a2    
 eEntpER_Model 1
 aName      SampleAdminApp
 aZKey      110000070
-aLastSyncDate 20150101213049432
+aLastSyncDate 20150108200519825
 
 eER_Entity 2
 aName      Professor
@@ -11,7 +11,7 @@ aPurpose   F
 aER_DiagramPosX 18
 aER_DiagramPosY 2
 aSAP_Entity 0
-awkSelectedAttributeForDragSort 1
+awkSelectedAttributeForDragSort 2
 
 eER_Attribute 3
 aName      Id
@@ -111,36 +111,6 @@ aZKey      110000122
 aPurpose   F
 aER_DiagramPosX 36
 aER_DiagramPosY 10
-
-eER_EntIdentifier 3
-
-eER_FactType 4
-
-eER_AttributeIdentifier 5
-
-eER_Entity 2
-aName      SampleApp
-aZKey      110000114
-aPurpose   F
-aER_DiagramPosX 2
-aER_DiagramPosY 6
-awkSelectedAttributeForDragSort 1
-
-eER_Attribute 3
-aName      Id
-aZKey      110000115
-aNotNull   Y
-awkSequence 1
-
-eDomain    4
-
-eER_FactTypeForDelete 4
-aZKey      110000117
-
-eER_EntIdentifierForDelete 5
-aName      Id
-aZKey      110000116
-aSystemMaintained Y
 
 eER_EntIdentifier 3
 
@@ -387,60 +357,56 @@ eER_Entity_2 4
 i16        5
 i17        4
 i18        2
+i19        11
 i21        3
-i24        23
-i25        22
-i26        20
-i27        11
-i29        3
-i36        10
-i37        9
-i38        8
-i39        1
-i43        15
-i44        31
-i45        30
-i46        28
-i47        15
-i49        3
-i53        7
-i54        14
-i55        13
-i56        12
-i57        1
-i58        42
-i59        41
-i60        40
-i61        11
-i62        51
-i63        50
-i64        48
-i65        35
-i67        3
-i72        34
-i73        33
-i74        32
+i28        10
+i29        9
+i30        8
+i31        1
+i35        15
+i36        23
+i37        22
+i38        20
+i39        15
+i41        3
+i45        7
+i46        14
+i47        13
+i48        12
+i49        1
+i50        34
+i51        33
+i52        32
+i53        11
+i54        43
+i55        42
+i56        40
+i57        27
+i59        3
+i64        26
+i65        25
+i66        24
+i67        11
+i68        61
+i69        60
+i70        58
+i71        25
+i72        26
+i73        27
+i74        24
 i75        11
-i76        69
-i77        68
-i78        66
-i79        33
-i80        34
-i81        35
-i82        32
-i83        11
-i84        9
-i85        8
-i86        1
-i87        10
-i88        11
-i89        13
-i90        12
-i91        1
-i92        14
-i93        15
-i94        41
-i95        42
-i96        15
-i97        40
-i98        11
+i76        9
+i77        8
+i78        1
+i79        10
+i80        11
+i81        13
+i82        12
+i83        1
+i84        14
+i85        15
+i86        33
+i87        34
+i88        15
+i89        32
+i90        11

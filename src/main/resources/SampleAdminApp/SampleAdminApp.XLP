@@ -1,4 +1,4 @@
-z1000-Zeidon    SAMPLEADMTZCMLPLO 01/07/15   23:05:44 1.0a2    
+z1000-Zeidon    SAMPLEADMTZCMLPLO 01/08/15   20:08:49 1.0a2    
 eLPLR      1
 aName      SampleAdminApp
 aDesc      Sample college scheduling administration app
@@ -6,10 +6,10 @@ aZKey      92726744
 aPgmSrcDir C:\zeidon\zapp\SampleAdminApp\src\main\scala
 aExecDir   C:\zeidon\zapp\SampleAdminApp\src\main\resources\SampleAdminApp
 aMetaSrcDir C:\zeidon\zapp\SampleAdminApp\zobjects
-aTaskUseCount 1
+aTaskUseCount 2
 aLPLR_Type 2
 aTempDesc  Sample college scheduling administration app
-aJavaPackageName com.quinsoft.zeidon.SampleAdmin
+aJavaPackageName com.quinsoft.zeidon.sampleadminapp
 aMaxZKey   110000069
 
 eW_MetaType 2
@@ -92,8 +92,8 @@ aCPLR_ZKey 110000070
 aStatus    1
 aUpdateInd 2
 aName      SampleAdminApp
-aLastSyncDate 20150101213049586
-aLastUpdateDate 20150101213049586
+aLastSyncDate 20150108200519965
+aLastUpdateDate 20150108200519965
 
 eW_MetaType 2
 aType      5
@@ -107,8 +107,8 @@ aStatus    1
 aUpdateInd 2
 aName      SampleAdminApp
 aDesc      Sample college scheduling administration app
-aLastSyncDate 20150101213106300
-aLastUpdateDate 20150101213106300
+aLastSyncDate 20150108200534602
+aLastUpdateDate 20150108200534602
 
 eW_MetaType 2
 aType      7
